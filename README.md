@@ -1,1 +1,10 @@
-# Week-04-Python
+data1=input("data1: ")
+list1=data1.split(",")
+set1=set(list1)
+element=input("element: ')
+set1.add(element)
+print("sorted set after adding;",sorted(set1))
+data2=input("data2: ")
+list2=data2.split(",")
+set1.update(set(list2))
+print("sorted set after updating:",sorted(set1))
